@@ -1,5 +1,5 @@
-<?php 
-      
+<?php
+
 if (isset($_POST['email'])) {
 
     // REPLACE THIS 2 LINES AS YOU DESIRE
@@ -26,10 +26,10 @@ if (isset($_POST['email'])) {
 
     $name = $_POST['name']; // required
     $email = $_POST['email']; // required
-    $email = $_POST['subject']; // required
+    $subject = $_POST['subject']; // required
     $message = $_POST['message']; // required
 
-
+    $to = 'poonam@softnweb.in';
     mail($to, $subject, $message, "From:" . $email);
 //     $error_message = "";
 //     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
