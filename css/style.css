@@ -281,9 +281,9 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
+  color: #30a48f;
+  font-size: 20px;
+  font-weight: 600;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -546,7 +546,7 @@ div#preloader {
 
 .our-skill-area {
   /* background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover; */
-  background-color: #336bb799;
+  /* background-color: #336bb799; */
 }
 
 .test-overly {
@@ -558,7 +558,7 @@ div#preloader {
 }
 
 .progress-h4 {
-  color: #fff;
+  /* color: #fff; */
   font-weight: 500;
   font-size: 20px;
 }
@@ -569,11 +569,11 @@ div#preloader {
 .progress-circular img
 {
   /* display: inline;  */
-  transform: rotate(45deg);
-                  height: 150px;
-                  width: 150px;
+ 
+                  height: 250px;
+                  width: 250px;
                   border: 42px;
-                  border: 12px solid rgb(255 255 255 / 63%);
+                  border: 12px solid rgb(155 217 208 / 63%);
                   margin-bottom: 43px;
                   overflow: hidden;
                   position: relative;
@@ -1272,7 +1272,7 @@ div#preloader {
   border: 10px solid #227fe221;
   text-align: center;
   transition: all 0.4s ease 0s;
-  background: #00ffff33;
+ 
 }
 
 .pri_table_list h3 span {
@@ -1388,7 +1388,7 @@ div#preloader {
 ----------------------------------------*/
 
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
+  background: rgba(0, 0, 0, 0) url("../img/background/bg3.jpg") no-repeat fixed center top / cover;
   height: auto;
   width: 100%;
 }
@@ -2385,6 +2385,37 @@ span.email-notes {
   padding-top: 30px;
 }
 
+.whatsApp{
+ 
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.facebook{
+ 
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#252bd3;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-whatsApp{
+  margin-top:16px;
+}
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
